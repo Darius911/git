@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+ box-sizing: border-box; 
+ margin: 0;
+ padding: 0;
+}
+
+.container {
+  width: 95.0625rem;
+  height: 39.8125rem;
+flex-shrink: 0;
+
+border-radius: 1.625rem;
+background: #FFF;
+}
+
+.properties-header{
+display: flex;
+width: 100%;
+height: 3.25rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+margin-top: 2.44rem;
+}
+
+.properties-header h2 {
+  color: #1A1A1A;
+text-align: center;
+font-family: Roboto;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 3.25rem; /* 130% */
+}
+
+.properties-header p {
+  color: #1A1A1A;
+text-align: center;
+font-family: Roboto;
+font-size: 1.0625rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.01875rem; /* 190% */
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2,1fr);
+  width: 95.0625rem;
+  margin-left: 3.38rem;
+  margin-right: 3.25rem;
+
+
+}
+
+.card{
+  display: flex;
+  align-items: center;
+ 
+gap: 1.87rem;
+width: 28.8125rem;
+height: 7.75rem;
+flex-shrink: 0;
+margin-inline:auto;
+margin-top: 1.68rem;
+padding-left: 0.92rem;
+
+border-radius: 0.75rem;
+background: #EEE;
+}
+.img-holder {
+  width: 6.25rem;
+height: 6.3125rem;
+flex-shrink: 0;
+background: url(images/mobile/sandiego.png) lightgray 0px 0px / 100% 100% no-repeat;
+
+}
+.bg-la{
+  background: url(images/mobile/losangeles.png) 
+}
+.bg-chi {
+  background: url(images/mobile/chicago.png) 
+}
+.bg-ny{
+  background: url(images/mobile/newyourk.png) 
+}
+.bg-miami{
+  background: url(images/mobile/miami.png) 
+}
+.bg-florida {
+  background: url(images/mobile/florida.png) 
+}
+.bg-arizina {
+  background: url(images/mobile/arizona.png) 
+}
+.bg-hawaii {
+  background: url(images/mobile/hawaii.png) 
+}
+.bg-washington {
+  background: url(images/mobile/hawaii.png) 
+}
+
+
+
+
+.city {
+  color: #1A1A1A;
+font-family: Roboto, sans-serif;
+font-size: 1.1875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.425rem; /* 120% */
+}
+.count-properties {
+  color: #1A1A1A;
+font-family: Roboto, sans-serif;
+font-size: 0.8125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.54375rem; /* 190% */
+}
+
+
+
+
+
