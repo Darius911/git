@@ -9,7 +9,7 @@
 
 .container {
  
-  width: 65.625rem;
+  /* width: 65.625rem; */
   height: 39.5625rem;
 flex-shrink: 0;
 
@@ -49,9 +49,9 @@ line-height: 2.01875rem; /* 190% */
 
 .cards-container {
   display: grid;
-  grid-template-columns: repeat(3, 30%);
-  grid-template-rows: repeat(2, 30%);
-  width: 95.0625rem;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  /* width: 95.0625rem; */
   margin-left: 3.38rem;
   margin-right: 3.25rem;
 
