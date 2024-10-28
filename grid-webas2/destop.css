@@ -1,0 +1,17 @@
+
+
+.grid-container {
+  
+  display: grid;
+ 
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  grid-template-areas: 
+  'top-left top-left top-center'
+  'top-right top-right top-right'
+  'bottom-left bottom-center bottom-center'
+  ;
+}
+
