@@ -1,0 +1,25 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.calculator-card {
+  width: 30%;
+  height: 29rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #c3c3d7;
+}
+.calculator-img-bg {
+  display: block;
+  width: 70%;
+  height: 20rem;
+  margin-inline: auto;
+  background: url(images/calculatorx612.jpg) no-repeat center;
+}
+.text-under-calculator {
+  font-size: 0.7rem;
+  
+}
